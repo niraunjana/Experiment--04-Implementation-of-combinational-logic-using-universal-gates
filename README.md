@@ -32,6 +32,7 @@ Program to implement the given logic function using NAND and NOR gates and to ve
 Developed by: NIRAUNJANA GAYATHRI G R
 RegisterNumber:  22008369
 
+
 module combin(a,b,c,d,f);
 input a,b,c,d;
 output f;
@@ -41,6 +42,8 @@ assign q=(~d & c & c & a);
 assign r=(c & ~b & a);
 assign f=(~(~p & ~q & ~r));
 endmodule
+
+
 
 module combin(a,b,c,d,f);
 input a,b,c,d;
