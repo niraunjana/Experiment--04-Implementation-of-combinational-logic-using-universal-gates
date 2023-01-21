@@ -32,29 +32,8 @@ Program to implement the given logic function using NAND and NOR gates and to ve
 Developed by: NIRAUNJANA GAYATHRI G R
 RegisterNumber:  22008369
 
+![WhatsApp Image 2023-01-21 at 09 58 18](https://user-images.githubusercontent.com/119395610/213843348-5f5ef2d7-961b-4a46-a57f-7e06002eebdc.jpg)
 
-module combin(a,b,c,d,f);
-input a,b,c,d;
-output f;
-wire p,q,r;
-assign p=(~c & b & a);
-assign q=(~d & c & c & a);
-assign r=(c & ~b & a);
-assign f=(~(~p & ~q & ~r));
-endmodule
-
-
-
-module combin(a,b,c,d,f);
-input a,b,c,d;
-output f;
-wire p,q,r;
-assign p=(c & ~b & a);
-assign q=(d & ~c & a);
-assign r=(c & ~b & a);
-assign f=((p | q & |r));
-endmodule
-*/
 
 ## Truth Table:
 
